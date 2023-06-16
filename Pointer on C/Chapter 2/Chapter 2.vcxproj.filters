@@ -13,22 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="no1">
+      <UniqueIdentifier>{3c4bf02f-5145-4720-9df4-aa2c5e1070d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="no1.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="no2.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="no3.c">
-      <Filter>源文件</Filter>
+    <ClCompile Include="no1\increment.c">
+      <Filter>no1</Filter>
     </ClCompile>
-    <ClCompile Include="no6.c">
-      <Filter>源文件</Filter>
+    <ClCompile Include="no1\negate.c">
+      <Filter>no1</Filter>
     </ClCompile>
-    <ClCompile Include="no4.c">
-      <Filter>源文件</Filter>
+    <ClCompile Include="no1\main.c">
+      <Filter>no1</Filter>
     </ClCompile>
     <ClCompile Include="no5.c">
       <Filter>源文件</Filter>
