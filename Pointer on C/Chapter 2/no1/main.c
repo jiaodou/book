@@ -1,7 +1,8 @@
 #include <stdio.h>
 int increment(int num);
 int negate(int num);
-int main1() {
+
+int main2() {
 	printf("%d\n", increment(10));
 	printf("%d\n", negate(10));
 	printf("%d\n", increment(0));
